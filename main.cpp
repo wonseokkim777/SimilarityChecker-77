@@ -13,6 +13,10 @@ TEST(SimilarityCheck, Similar) {
 
 TEST(SimilarityCheck, Similar2) {
 	EXPECT_EQ(1000, 1000);
+	EXPECT_EQ(1000, 1000);
+	EXPECT_EQ(1000, 1000);
+	EXPECT_EQ(1000, 1000);
+	EXPECT_EQ(1000, 1000);
 }
 
 
