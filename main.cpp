@@ -6,6 +6,13 @@ TEST(SimilarityCheck, Similar) {
 	int actual = account.check();
 	EXPECT_EQ(100, actual);
 
+	EXPECT_EQ(1000, 1000);
+
+}
+
+
+TEST(SimilarityCheck, Similar2) {
+	EXPECT_EQ(1000, 1000);
 }
 
 
